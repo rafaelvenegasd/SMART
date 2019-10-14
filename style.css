@@ -1,0 +1,18 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    display: inline;
+  }
+.logo{
+    justify-content: flex-start;
+}
+.header-menu{
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(70, 214, 250);
+    color: white;
+    padding-right:100px; 
+    word-spacing: 20px;
+    text-transform: uppercase;
+}
