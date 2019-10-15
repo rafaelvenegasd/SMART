@@ -79,7 +79,7 @@ h1{
 }
 
 .article-container{
-    width: 40%;
+    display: flex;
 }
 
 .article-about{
@@ -89,23 +89,27 @@ h1{
 }
 
 .article-content{
-    font-size: 1em;
     text-align: justify;
-    padding: 5px 20px;
     width: 96%;
     margin: 0 auto;
     flex-wrap: wrap;
+    margin: 15px;
+    font-size: 0.8em;
+    padding: 5px 20px;
+    display: flex;
 }
 
 .article-description{
-    border: white 1px solid;
     margin: 15px;
     font-size: 0.8em;
     margin-top: -10px;
-    background-color: white;
     padding: 5px 20px;
+    display: flex;
 }
 
+.article-description img{
+    width: 80px;
+}
 /* Portfolio */
 
 
