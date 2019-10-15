@@ -21,6 +21,11 @@ li {
 
 h1{
     font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 25px;
 }
 
 /* Header */
@@ -38,7 +43,6 @@ h1{
     word-spacing: 20px;
     text-transform: uppercase;
 }
-
 
 .header-menu, .home{
     color: white;
@@ -75,20 +79,11 @@ h1{
 
 .about{
     background-color: #f5f6f8;
-    height: 1000px;
 }
 
 .about p{
     font-size: 18px;
     margin-top: 0;
-}
-
-.about h1{
-    margin-bottom: 0;
-}
-
-.article-container{
-    display: flex;
 }
 
 .article-about{
@@ -104,7 +99,6 @@ h1{
 .article-content{
     text-align: justify;
     width: 96%;
-    margin: 0 auto;
     flex-wrap: wrap;
     margin: 15px;
     font-size: 0.8em;
@@ -127,8 +121,31 @@ h1{
 
 
 /* Portfolio */
+.portfolio a{
+    text-decoration: none;
+    color: #7e7d7d;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.portfolio a:hover{
+    color: #39f8d9;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+.portfolio ul{
+    word-spacing: 50px;
+}
 
 
+.portfolio img{
+    border-radius: 20px;
+}
+
+.portfolio article{
+   width: 25%;
+}
 
 /* others */
 .container{
@@ -150,6 +167,11 @@ button {
     font-size: 12px;
     border: 2px, solid, white;
     font-weight: bolder;
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
 }
 
 
