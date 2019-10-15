@@ -1,18 +1,137 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* general properties */
+.center{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
+
+.gradient, button:hover{
+    background: linear-gradient(to right, #42CCE8 0%, rgba(33,180,226,1) 11%, rgba(113,206,239,1) 38%, rgba(45, 210, 210) 85%, #39f8d9 100%);
+}
+
+.general-structure{
+    margin: 0 auto;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
 li {
     display: inline;
-  }
-.logo{
-    justify-content: flex-start;
 }
+
+h1{
+    font-size: 40px;
+}
+
+/* Header */
+
+.header{
+    height: 60px;
+    color: white;
+    width: 100%;
+    display:flex; 
+}
+
 .header-menu{
     display: flex;
-    justify-content: flex-end;
-    background: rgb(70, 214, 250);
-    color: white;
     padding-right:100px; 
     word-spacing: 20px;
     text-transform: uppercase;
 }
+
+
+.header-menu, .home{
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+
+/* Home */
+.home{
+    background-image: url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2019/06/Web_150DPI-20180324-WeWork-Carioca-Common-Areas-Couch-Area-2-1120x630.jpg);
+    background-size: cover;
+}
+
+.home-container{
+    top: 250px;
+}
+
+
+.filter{
+    background-color:rgba(0,0,0,.5);
+    height: 600px;
+}
+
+/* About*/
+
+.about{
+    background-color: #f5f6f8;
+    height: 1000px;
+}
+
+.article-container{
+    width: 40%;
+}
+
+.article-about{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.article-content{
+    font-size: 1em;
+    text-align: justify;
+    padding: 5px 20px;
+    width: 96%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.article-description{
+    border: white 1px solid;
+    margin: 15px;
+    font-size: 0.8em;
+    margin-top: -10px;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+/* Portfolio */
+
+
+
+/* others */
+.container{
+    width: 100%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    position: absolute;
+}
+
+button {
+    color: #ffffff;
+    background: transparent;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+    border: 2px, solid, white;
+    font-weight: bolder;
+}
+
+
+
+
