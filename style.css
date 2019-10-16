@@ -61,11 +61,17 @@ h2{
 
 .header a:hover {
     text-decoration-line: underline;
-    font-weight: bolder
+    font-weight: bolder;
 }
 
 .logo{
     padding-left: 100px;
+    display: flex;
+}
+
+.logo img{
+    padding: 0 10px;
+    margin: 5px;
 }
 
 
