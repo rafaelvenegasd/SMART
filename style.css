@@ -9,10 +9,15 @@
     background: linear-gradient(to right, #42CCE8 0%, rgba(33,180,226,1) 11%, rgba(113,206,239,1) 38%, rgba(45, 210, 210) 85%, #39f8d9 100%);
 }
 
+
 .general-structure{
     margin: 0 auto;
     display: block;
     font-family: 'Poppins', sans-serif;
+}
+
+.bolder{
+    font-weight: bolder;
 }
 
 li {
@@ -54,6 +59,11 @@ h2{
     font-size: 90%;
 }
 
+.header a:hover {
+    text-decoration-line: underline;
+    font-weight: bolder
+}
+
 .logo{
     padding-left: 100px;
 }
@@ -72,7 +82,11 @@ h2{
 
 .filter{
     background-color:rgba(0,0,0,.5);
-    height: 600px;
+    height: 670px;
+}
+
+.button-container{
+    margin-top: 20px;
 }
 
 /* About*/
@@ -130,7 +144,6 @@ h2{
 
 .portfolio a:hover{
     color: #39f8d9;
-    font-weight: bolder;
     text-decoration-line: underline;
 }
 
@@ -145,6 +158,12 @@ h2{
 
 .portfolio article{
    width: 25%;
+   padding: 10px;
+   text-align: justify;
+}
+
+.portfolio figure{
+    margin: 0 auto;
 }
 
 /* others */
@@ -159,14 +178,14 @@ h2{
 button {
     color: #ffffff;
     background: transparent;
-    border-radius: 20px;
+    border-radius: 30px;
     text-transform: uppercase;
     cursor: pointer;
-    height: 40px;
-    width: 120px;
+    height: 50px;
+    width: 140px;
     font-size: 12px;
-    border: 2px, solid, white;
-    font-weight: bolder;
+    border: 1.7px solid white;
+    margin: 0 10px;
 }
 
 .article-container{
