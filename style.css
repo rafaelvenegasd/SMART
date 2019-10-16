@@ -36,7 +36,7 @@ h2{
 /* Header */
 
 .header{
-    height: 60px;
+    height: 80px;
     color: white;
     width: 100%;
     display:flex; 
@@ -47,6 +47,7 @@ h2{
     padding-right:100px; 
     word-spacing: 20px;
     text-transform: uppercase;
+    align-items: center;
 }
 
 .header-menu, .home{
@@ -56,7 +57,7 @@ h2{
 .header a{
     color: white;
     text-decoration: none;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .header a:hover {
@@ -67,11 +68,12 @@ h2{
 .logo{
     padding-left: 100px;
     display: flex;
+    font-size: 20px;
 }
 
 .logo img{
     padding: 0 10px;
-    margin: 5px;
+    margin: 10px 0;
 }
 
 
